@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./Components/Footer/Footer.scss";
+@import "./Components/Header/Header.scss";
+@import "./Components/Items/Items.scss";
+@import "./Components/Item/Item.scss";
+@import "./Components/Order/Order.scss";
+@import "./Components/Categotys/Categorys.scss";
+@import "./Components/ShowFullItem/ShowFullItem.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+  color: #222;
+  font-family: 'Montserrat' , sans-serif;
+  font-weight: 300;
+}
+.presentation{
+  background: url("./img/bg.jpg");
+}
+.wrapper{
+  width: 1280px;
+  margin: 50px auto;
+}
