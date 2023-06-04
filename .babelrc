@@ -1,4 +1,5 @@
 {
+  //Babel settings for react jsx
   "plugins": ["@babel/syntax-dynamic-import"],
   "presets": [
     [

@@ -97,6 +97,25 @@ header{
               font-size: 20px;
               margin-bottom: 20px;  
             }
+
+            .PurchaseBtn{
+                position: relative;
+                margin-bottom: 15px;
+                padding: 10px;
+                float: right;
+                font-size: 14px;
+                font-weight: 600;
+                border: none;
+                border-radius: 15px;
+                background-color: #ca5252;
+                color: white;
+                transition: color , transform  500ms ease;
+
+                &:hover{
+                    
+                    transform: scale(1.2)
+                }
+            }
         }
     }
     .presentation{

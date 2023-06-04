@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Product obj categories
 const Categorys = ({ chooseCategory }) => {
   const categories = [
     {
@@ -25,6 +26,7 @@ const Categorys = ({ chooseCategory }) => {
   ];
 
   return (
+    //Category selection
     <div className='categories'>
       {categories.map(el => (
         <div key={el.key} onClick={() => chooseCategory(el.key)}>
