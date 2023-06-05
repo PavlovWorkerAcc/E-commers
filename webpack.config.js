@@ -21,7 +21,7 @@ const config = {
   plugins: [
     //webpack definition of root index.html
     new HtmlWebpackPlugin({
-      template: 'index.html',
+      template: './public/index.html',
     }),
 
     //webpack cooping img directory from public directory to production directory
